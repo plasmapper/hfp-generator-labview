@@ -1,2 +1,23 @@
-# hfp-g
-LabVIEW instrument driver for HFP GA and GL series RF generators
+[English](README_EN.md)
+# Библиотека LabVIEW для ВЧ генераторов HFP Plasma G20
+
+Проверено на HFP GA-13.1.
+
+## Требования
+LabVIEW 2015 и выше.
+
+## Возможности
+1. Чтение конфигурации и измеряемых параметров устройства.
+2. Настройка параметров мощности, модуляции и защиты.
+3. Чтение информации об устройстве.
+4. Автоматическое переподключение к устройству.
+
+## Зависимости
+[Modbus Client Library](https://github.com/plasmapper/modbus-client-labview)
+
+## Примеры
+### HFP Generator.vi
+Пример, демонстрирующий все возможности библиотеки.
+
+## Программное обеспечение и документация
+[ВЧ генераторы HFP](https://www.hfpower.ru/Product_rus.htm#%D0%92%D0%A7_%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B)
