@@ -1,19 +1,19 @@
-# HFP Plasma G20 Series Library for LabVIEW.
-LabVIEW instrument driver for HFP Plasma G20 series RF generators.
-
-Tested on HFP GA-13.1.
+# LabVIEW Instrument Driver for HFP Plasma G20 and GK Series RF Generators
+Tested on HFP GA-13.1 and GKA-1K0.1M0.1.2.0.
 
 ## Requirements
 LabVIEW 2015 and higher.
+
+[Modbus Client Library](https://github.com/plasmapper/modbus-client-labview) ([VIPM package](https://www.vipm.io/package/plasmapper_lib_pl_modbus_client/))
+
+## Installation
+[VIPM package](https://www.vipm.io/package/plasmapper_lib_pl_hfp_generator/)
 
 ## Features
 1. Read device configuration and measurements.
 2. Configure power, modulation and protection settings.
 3. Read device information.
 4. Automatic reconnection to device.
-
-## Dependencies
-[Modbus Client Library](https://github.com/plasmapper/modbus-client-labview)
 
 ## Examples
 ### HFP Generator.vi

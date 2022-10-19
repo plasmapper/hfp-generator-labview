@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-04-04 20:08:36" Modified_Date="2022-10-17 22:55:41" Creator="Researcher" Comments="" ID="644af81cf0faabf8ea7fc0550cd14f36">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-04-04 20:08:36" Modified_Date="2022-10-19 21:11:56" Creator="Researcher" Comments="" ID="95329dcb53205b278a56b7f42544fbf6">
   <Library_General_Settings>
     <Package_File_Name>plasmapper_lib_PL_HFP_Generator</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.1.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build</Library_Output_Folder>
@@ -29,10 +29,10 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>PL HFP Generator.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary>LabVIEW instrument driver for HFP Plasma G20 series RF generators</One_Line_Description_Summary>
-      <Description>LabVIEW instrument driver for HFP Plasma G20 series RF generators.
+      <One_Line_Description_Summary>LabVIEW instrument driver for HFP Plasma G20 and GK series RF generators</One_Line_Description_Summary>
+      <Description>LabVIEW instrument driver for HFP Plasma G20 and GK series RF generators.
 
-Tested on HFP GA-13.1.
+Tested on HFP GA-13.1 and GKA-1K0.1M0.1.2.0.
 
 Features
 1. Read device configuration and measurements.
@@ -42,7 +42,8 @@ Features
       <Copyright/>
       <Packager>plasmapper</Packager>
       <URL>https://github.com/plasmapper/hfp-generator</URL>
-      <Release_Notes/>
+      <Release_Notes>Added
+- Plasma GK series support.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -292,7 +293,7 @@ Features
         <Path>Public\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC61C2CB3ED11DF5DA78DC551FDDA734</GUID>
+      <GUID>19064FC07C4E7ED58309B864E01771A6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -400,20 +401,6 @@ Features
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Configure Partial Modulation Pause Power.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Public\Configure\Configure Partial Modulation Pause Power.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Configure Phase.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -470,7 +457,35 @@ Features
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Configure Partial Modulation Pause Power.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Public\Configure\Configure Partial Modulation Pause Power.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Configure Modulation Duty Cycle.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Public\Configure\Configure Modulation Duty Cycle.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Configure Modulation Pulse Time.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -478,10 +493,10 @@ Features
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Public\Configure\Configure Modulation Duty Cycle.vi</Path>
+        <Path>Public\Configure\Configure Modulation Pulse Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>23D978CAF8803BC77DB8D632A3E81555</GUID>
+      <GUID>942911D0DB7BF0ADC054B93D1D20A5BC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -516,7 +531,7 @@ Features
         <Path>Public\Data\Read Configuration and Measurements.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1FD0C80F57ED90C5A5ED09504FF5CB1A</GUID>
+      <GUID>63E34395350A23727A8D9991E14F1381</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -551,7 +566,7 @@ Features
         <Path>Public\Utility\Read Device Information.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>481C6BEFC2A9BCB125FF552BD58CCF94</GUID>
+      <GUID>E25C4F8A7EC43A706DC66D0E1CBA39AF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

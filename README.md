@@ -1,19 +1,20 @@
 [English](README_EN.md)
-# Библиотека LabVIEW для ВЧ генераторов HFP Plasma G20
-
-Проверено на HFP GA-13.1.
+# Библиотека LabVIEW для ВЧ генераторов HFP Plasma G20 и GK
+Проверено на HFP GA-13.1 и GKA-1K0.1M0.1.2.0.
 
 ## Требования
 LabVIEW 2015 и выше.
+
+[Modbus Client Library](https://github.com/plasmapper/modbus-client-labview) ([VIPM package](https://www.vipm.io/package/plasmapper_lib_pl_modbus_client/))
+
+## Установка
+[VIPM package](https://www.vipm.io/package/plasmapper_lib_pl_hfp_generator/)
 
 ## Возможности
 1. Чтение конфигурации и измеряемых параметров устройства.
 2. Настройка параметров мощности, модуляции и защиты.
 3. Чтение информации об устройстве.
 4. Автоматическое переподключение к устройству.
-
-## Зависимости
-[Modbus Client Library](https://github.com/plasmapper/modbus-client-labview)
 
 ## Примеры
 ### HFP Generator.vi
